@@ -46,7 +46,7 @@
 				function myFunction() {
 					var url = "https://api.whatsapp.com/send/?phone="+document.getElementById('phone').value+"&app_absent=0"
 					//window.open(url, '_blank');
-					window.opener.location = url;
+					window.open.location = url;
 				}
 			</script>
 			<!-- Scripts -->
